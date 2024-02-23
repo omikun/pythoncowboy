@@ -1,0 +1,9 @@
+Hello there, what's your name?
+>player_name
+$player_name$, I need your help. Do you have the passcode?
+>null
+This is your job, $player_name$, but I'm about to be sliced in half
+HELP
+>null
+Try 'll'
+And look for something you can run!
