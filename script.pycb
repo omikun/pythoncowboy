@@ -1,18 +1,22 @@
-~data['code']='0' 
-%
-Hello there, what's your name?
+Thank god you're here. What's your name, kid?
 >player_name
 $player_name$, I need your help. Do you have the passcode?
 >null
-This is your job, $player_name$, but I'm about to be sliced in half
+This is your job, $player_name$. I'm about to be sliced in half!
 HELP
 >null
 Try 'll'
-And look for something you can run!
+And look for a passcode! Type 'radio' when you find it and tell me the code!
 %
 #code is $code$
+<data['code'] = ''
 <while '1346' not in data['code']: 
 <   self.processLine('>code'); 
 <   if '1346' not in data['code']: 
 ~       pprint("GARHH that's not it! Hurry, $player_name$, find the code!"); print('')
 That worked! You're amazing $player_name$! Now let's get me out of here.
+>null
+You helped me stop the laser from slicing my crotch off. Now unlock the chains.
+>null
+I need you to unlock this chair! 
+
