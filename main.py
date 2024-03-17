@@ -21,7 +21,7 @@ class Cowboy:
             data[key] = input("")
             #print("got > " + key + " : " + str(type(data[key])) + " : " + data[key])
         elif line[0] == '%':
-            shell()
+            shell(self, line[1:-1])
         elif line[0] == '<':
             self.code_snippet += line[1:]
         elif line[0] == '~':

@@ -19,4 +19,5 @@ That worked! You're amazing $player_name$! Now let's get me out of here.
 You helped me stop the laser from slicing my crotch off. Now unlock the chains.
 >null
 I need you to unlock this chair! 
-
+#%dir/test.py
+~if data['unlock']: pprint('You did it!')
